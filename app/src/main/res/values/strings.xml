@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Appzheimer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_info_legal">info legal</string>
+    <string name="title_activity_enfermedad">Alzheimer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dieta">Dieta</string>
+    <string name="title_activity_ejercicio">Ejercicio</string>
+    <string name="title_activity_prevencion">Prevención</string>
+    <string name="title_activity_ayuda">Ayuda</string>
+    <string name="title_activity_contacto">Contacto</string>
+    <string name="title_activity_quienes_somos">Quienes Somos</string>
+    <string name="title_activity_evaluacion">Evaluación</string>
+
+
+    <string name="tituloSpinner1">El alzhéimer: la enfermedad</string>
+    <string name="title_activity_contacto_enviar_mail">ContactoEnviarMail</string>
+</resources>

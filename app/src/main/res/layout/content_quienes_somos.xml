@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.appzheimer.uem.appzheimer.QuienesSomosActivity"
+    tools:showIn="@layout/app_bar_quienes_somos">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:id="@+id/idImagenSomos"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/colabora" />
+
+
+
+    <ScrollView
+        android:id="@+id/idScroll"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/idImagenSomos">
+
+
+
+        <TextView
+            android:id="@+id/textSomos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idImagenSomos"
+            android:padding="16dp"
+            android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim justo, rhoncus ut, imperdiet a, venenatis vitae. In enim " />
+
+    </ScrollView>
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/logo_tog"
+        android:layout_below="@id/idScroll"/>
+
+</RelativeLayout>

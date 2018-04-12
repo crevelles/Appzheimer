@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.appzheimer.uem.appzheimer.ContactoEnviarMail"
+    tools:showIn="@layout/app_bar_contacto_enviar_mail"
+    android:background="@color/colorWhite">
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="400dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/logo" />
+
+
+    <EditText
+        android:id="@+id/etxNombreMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginTop="112dp"
+        android:ems="10"
+        android:hint="Introduce tu nombre"
+        android:inputType="textPersonName"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/cajaMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etxNombreMail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:ems="10"
+        android:hint="Introduce tu consulta
+"
+        android:inputType="textMultiLine" />
+
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.appzheimer.uem.appzheimer.EnfermedadActivity"
+    tools:showIn="@layout/app_bar_enfermedad"
+    android:padding="16dp"
+    android:background="@color/colorAlloFOndo">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/idBtnEnfermedad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La enfermedad"
+            android:background="@color/colorAmarillo"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/idTextoIntroEnfermedad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La enfermedad de Alzheimer (EA) es una causa de demencia, la principal, pero no la única. Tal como la describió Alois Alzheimer, es una enfermedad degenerativa cerebral en la que se pierden neuronas, se produce el acúmulo de una proteína anormal (amiloide) y muestra lesiones características (placas seniles y ovillos neurofibrilares)."
+            android:textColor="@color/colorGris"
+            android:textStyle="italic"
+
+            android:layout_marginBottom="15dp"
+            android:visibility="gone"/>
+        <TextView
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/idTextoEnfermedad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Además de los síntomas relacionados con la pérdida de capacidad intelectual y funcional, a lo largo de la evolución de la enfermedad aparecen los denominados síntomas conductuales y psicológicos de la demencia (SCPD).
+
+Existen tres tipos: los trastornos del estado de ánimo (depresión, ansiedad y apatía); la agitación (agresividad, irritabilidad, inquietud, gritos y deambular errático); y los síntomas psicóticos (alucinaciones visuales, auditivas y delirios). Con el tiempo, todo ello aboca a una incapacidad de la persona que padece esta enfermedad."
+            />
+
+        <Button
+            android:id="@+id/idBtnCuadroClinico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cuadro clinico"
+            android:background="@color/colorVerde"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:id="@+id/idTextoCuadroClinico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Los síntomas de la enfermedad vienen determinados por cómo progresan las lesiones en el cerebro del paciente con EA.
+El conjunto de estas lesiones suele estar distribuido por el cerebro de forma característica según el grado de evolución de la enfermedad. El cerebro presenta una disminución de su tamaño en la enfermedad de Alzheimer.
+La consecuencia de la pérdida progresiva de neuronas y de sus terminaciones produce atrofia de la corteza cerebral que es más pronunciada en aquellas áreas relacionadas con el aprendizaje y la memoria."
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/idBtnSintomas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sintomas"
+            android:background="@color/colorNaranja"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/idBtnFases"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fases"
+            android:background="@color/colorCeleste"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/idBtnSignosAlarma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="signos de alarma"
+            android:background="@color/colorGris"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/idBtnAvisos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10 avisos para detectar la enfermedad"
+            android:background="@color/colorMorado"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/colorWhite"/>
+
+
+        <Button
+            android:id="@+id/idBtnTratamiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tratamiento"
+            android:background="@color/colorVerde"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/idBtnPreguntasFecuentes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="preguntas frecuentes"
+            android:background="@color/colorRojo"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/colorWhite"/>
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.appzheimer.uem.appzheimer.SplashNotificaciones"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/idImagenNot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notificacion1"
+        android:layout_marginTop="100dp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/idImagenNot"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorCeleste"
+        android:text="Activa las notificaciones para estar a la ultima en avances, diestas, ejercicios..."
+        android:textColor="@color/colorWhite" />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/icono_inicio"
+            android:icon="@drawable/icono_inicio"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/icono_enfermedad"
+            android:icon="@drawable/icono_pensar"
+            android:title="El Alzhéimer" />
+        <item
+            android:id="@+id/icono_test"
+            android:icon="@drawable/icono_test"
+            android:title="Evaluación" />
+
+        <item
+            android:id="@+id/icono_dieta"
+            android:icon="@drawable/icono_dieta"
+            android:title="Dieta" />
+        <item
+            android:id="@+id/icono_ejercicio"
+            android:icon="@drawable/icono_ejercicio"
+            android:title="Ejercicio" />
+        <item
+            android:id="@+id/icono_prevencion"
+            android:icon="@drawable/icono_prevencion"
+            android:title="Prevención" />
+        <item
+            android:id="@+id/icono_ayuda"
+            android:icon="@drawable/icono_ayuda"
+            android:title="Consejos y cuidados" />
+
+    </group>
+
+    <item android:title="Comunicate">
+        <menu>
+            <item
+                android:id="@+id/icono_contacto"
+                android:icon="@drawable/caridad"
+                android:title="Ayuda" />
+            <item
+                android:id="@+id/icono_somos"
+                android:icon="@drawable/comunidad"
+                android:title="Quienes somos" />
+
+        </menu>
+    </item>
+
+</menu>
